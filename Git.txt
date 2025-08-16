@@ -1,0 +1,36 @@
+Git -> trace the history
+    -> help to collaborate 
+
+Github -> website to store and manage code
+       -> commit - changes
+
+local -> laptop/pc
+remote -> Github
+
+git config --global user.name "Name"
+git config --global user.email "Email"
+
+git config --list -> to check name and email
+
+git clone <link> -> to clone a repo
+
+cd -> change directory 
+
+ls -> all list files
+ls -a -> list all files even hiddens
+
+git status -> gives the status of the folder
+           -> untracked - new files that git doesn't yet track
+           -> modified - changed
+           -> staged - file is ready to be committed
+           -> unmodified - unchanged
+
+git add <file name> -> to add file to git 
+git add . -> to add all files to git 
+
+git commit -m "message" -> record of change
+
+git push origin main -> upload local repo to remote repo
+                     -> origin - default remote repo
+
+git init -> to create a new git repo
