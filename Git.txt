@@ -34,3 +34,19 @@ git push origin main -> upload local repo to remote repo
                      -> origin - default remote repo
 
 git init -> to create a new git repo
+git remote add origin <link> -> to make origin connected to the default remote repo
+git remote -v -> to verify the remote repo
+git branch -> to check branch
+
+branches -> copies of the repo
+
+git branch -M main -> to rename a branch
+git push -u origin main -> to set origin main as upstream to avoid writing origin main 
+
+
+git branch -> to check branch
+git branch -M main -> to rename a branch
+git checkout <branch_name> -> to navigate 
+git checkout -b <new-branch-name> -> to create new branch
+git branch -d <branch-name> -> to delete branch
+
