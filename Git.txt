@@ -14,7 +14,7 @@ git config --list -> to check name and email
 
 git clone <link> -> to clone a repo
 
-cd -> change directory 
+cd -> change directory
 
 ls -> all list files
 ls -a -> list all files even hiddens
