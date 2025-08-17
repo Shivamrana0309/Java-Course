@@ -50,3 +50,16 @@ git checkout <branch_name> -> to navigate
 git checkout -b <new-branch-name> -> to create new branch
 git branch -d <branch-name> -> to delete branch
 
+git pull origin main -> to make remote repo merge changes into local repo
+
+merge conflict -> when git doesn't able to make changes
+
+git reset -> to undo all the changes(this is when added)
+git reset HEAD~1 -> to undo committed changes (for one commit only)
+
+git reset <commit-hash> -> to undo all changes till this commit
+git reset --hard<commit-hash> -> to all remove code form local repo
+
+git log -> history of all commits
+
+fork
