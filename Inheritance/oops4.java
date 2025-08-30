@@ -9,6 +9,8 @@ class A{ // to understand anonymous object
     }
 }
 
+// multiple inheritance in java does not work, multiple inheritance is extend two non-inherited classes
+
 public class oops4{
     public static void main(String[] args) {
         // A obj -> reference variable 
@@ -20,5 +22,7 @@ public class oops4{
         AdvCalc cal = new AdvCalc();
         System.out.println(cal.add(12, 13)); // here using inheritance we used the add function of calculator class for the object AdvClac class
         System.out.println(cal.mul(12, 13));
+        ScientificCalc cal1 = new ScientificCalc();
+        System.out.println(cal1.add(14,15)); // here ScientificCalc class inherits AdvCalc class which inherits Calculator class
     }
 }
