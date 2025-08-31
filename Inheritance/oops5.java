@@ -29,5 +29,6 @@ class C extends B{
 public class oops5 {
     public static void main(String[] args) {
         C obj = new C(5);
+        System.out.println(obj);
     }
 }
