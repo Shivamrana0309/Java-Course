@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;
 
 class One{
     public void show1(){
@@ -21,9 +20,9 @@ public class oops9{
         Two obj1 = (Two) obj; // Downcasting
         obj1.show2();
 
-        int num =7;
+        // int num =7;
         Integer num1 = 8; // autoboxing
-        int num2 = num1.intValue(); // auto-unboxing
+        // int num2 = num1.intValue(); // auto-unboxing
         System.out.println(num1);
     }
 }
