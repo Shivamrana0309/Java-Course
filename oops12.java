@@ -63,5 +63,6 @@ public class oops12 {
         Computer desk = new Desktop();
         Developer dev = new Developer();
         dev.DevApp(desk);
+        dev.DevApp(lap);
     }
 }
